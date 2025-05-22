@@ -1,6 +1,6 @@
 {
-  "homepage": "https://SarveshBTelang.github.io/true-notion-ai",
-  "name": "true-notion-ai",
+  "homepage": "https://truenotionai.github.io/",
+  "name": "truenotionai",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -42,6 +42,6 @@
     "gh-pages": "^6.3.0",
     "postcss": "^8.4.32",
     "tailwindcss": "^3.3.6",
-    "vite": "^5.0.8"
+    "vite": "^5.4.19"
   }
 }
