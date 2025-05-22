@@ -3,13 +3,20 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  server: {
-    host: true,
-    strictPort: true,
-    port: 3000
+
+  esbuild: {
+    loader: 'jsx',
   },
-  define: {
-    global: 'window',
+  resolve:{
+    alias:{
+      './runtimeConfig': './runtimeConfig.browser',
+    },
   },
-  base: '/True-Notion-AI/'
-})
+  optimizeDeps: {
+    esbuildOptions: {
+      loader:{
+        '.js':'jsx',
+      },
+    },
+  },
+});
