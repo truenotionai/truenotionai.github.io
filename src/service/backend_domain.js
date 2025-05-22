@@ -1,0 +1,1 @@
+export const DOMAIN = 'https://true-notion-ai-623997133183.europe-west1.run.app' // Change this to your deployed backend domain
