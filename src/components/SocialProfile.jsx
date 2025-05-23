@@ -10,7 +10,7 @@ const SocialButtons = () => {
     {
       label: 'Home',
       icon: <FaHome />,
-      link: 'http://localhost:3000/true-notion-ai/',
+      link: 'https://truenotionai.github.io/',
       external: false,
     },
     {
